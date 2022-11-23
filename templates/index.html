@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="templates/styles.css" />
+  <meta charset="utf-8">
+  <title> My Machine Learning Model </title>
+
+</head>
+<body>
+
+
+ <div class="login">
+
+    <h2>Earthquake Prediction</h2>
+     <!-- Inputs for our ML model -->
+      <form action="{{ url_for('predict')}}"method="post">
+        <input type="text" name="Enlem" placeholder="Enlem" required="required" /> <br>
+        <input type="text" name="Boylam" placeholder="Boylam" required="required"/><br>
+		<input type="text" name="Derinlik" placeholder="Derinlik" required="required"/><br>
+		<input type="text" name="Xm" placeholder="Xm" required="required"/><br>
+		<input type="text" name="Ms" placeholder="Ms" required="required"/><br>
+		<input type="text" name="Mb" placeholder="Mb" required="required"/><br>
+		<input type="text" name="Yil" placeholder="Yil" required="required"/><br>
+		<input type="text" name="Ay" placeholder="Ay" required="required"/><br>
+		<input type="text" name="Gun" placeholder="Gun" required="required"/>
+<br><br>		
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict Value!</button><br><br>
+		<h3>{{prediction}}</h3>
+		
+      </form>
+
+ </div>
+ 
+
+</body>
+
