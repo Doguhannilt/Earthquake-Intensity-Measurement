@@ -8,15 +8,15 @@
   ### 
 
 
-#### TOOLS: Jupyter Notebook l Spyder l MySQL
+    #### TOOLS: Jupyter Notebook l Spyder l MySQL
 
-#### FE&EDA: Pandas&Numpy
+    #### FE&EDA: Pandas&Numpy
 
-#### ML: Linear Regression&Random Forest Regressor
+    #### ML: Linear Regression&Random Forest Regressor
 
-#### Python Libraries: Pandas, Numpy, Sci-Kit Learn, Matplotlib, Seaborn, Pickle
+    #### Python Libraries: Pandas, Numpy, Sci-Kit Learn, Matplotlib, Seaborn, Pickle
 
-#### Column names [TR]: Enlem	      Boylam	Derinlik  	xM	             Final	      Mw	          Ms	          Mb	            Yil	        Ay	          Gun
+    #### Column names [TR]: Enlem	      Boylam	Derinlik  	xM	             Final	      Mw	          Ms	          Mb	            Yil	        Ay	          Gun
 
 
 ### Column names [EN]:Latitude     Longitude Depth       xM             Final         Mw            Ms            Mb             Year         Month        Day
